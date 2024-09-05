@@ -1,0 +1,203 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Add this to your CSS file */
+.men_section_items {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+  }
+  .men_section_items {
+    display: none;
+  }
+  
+  .nav-bar ul li:hover .men_section_items {
+    display: block;
+  }
+
+  .women_section_items {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+  }
+
+  .women_section_items {
+    display: none;
+  }
+  
+  .nav-bar ul li:hover .women_section_items {
+    display: block;
+  }
+
+  .kids_section_items {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+  }
+
+  .kids_section_items {
+    display: none;
+  }
+  
+  .nav-bar ul li:hover .kids_section_items {
+    display: block;
+  }
+
+  .living_section_items {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+  }
+
+  .living_section_items {
+    display: none;
+  }
+  
+  .nav-bar ul li:hover .living_section_items {
+    display: block;
+  }
+
+  .makeup_section_items {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+  }
+
+  .makeup_section_items {
+    display: none;
+  }
+  
+  .nav-bar ul li:hover .makeup_section_items {
+    display: block;
+  }
+
+
+  .studio_section_items {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+  }
+
+  .studio_section_items {
+    display: none;
+  }
+  
+  .nav-bar ul li:hover .studio_section_items {
+    display: block;
+  }
+  
+  .flex-cols-5 > div {
+    min-width: 170px; /* Ensure each column has a minimum width */
+  }
+  
+  .grid-col >div{
+    min-width: 575px;
+  }
+
+
+  .nav-bar ul li::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background-color: #f43f5e; /* Change this to your desired color */
+    bottom: -12px; /* Adjust this value to position the line */
+    left: 0px;
+    transition: width 0.3s ease-in-out;
+  }
+  
+  .nav-bar ul li:hover::after {
+    width: 100%;
+  }
+
+
+  .model{
+    margin-left: 85px;
+    margin-bottom: 20px;
+    position: relative;
+    height: 400px;
+    width: 400px;
+    margin-top: 20px;
+    border: 5px solid white;
+    border-radius: 2px;
+    
+  }
+
+  .binge{
+    margin-bottom: 20px;
+    margin-left: 200px;
+  }
+
+  .products{
+    margin-top: 28px;
+  }
+
+  .shop{
+    margin-top: 16px;
+  }
+
+  .slide{
+    
+  }
+
+  .end1{
+    min-width: 200px;
+   padding: 50px;
+   margin-left: 50px;
+  }
+  
+  .box{
+    margin-left: 50px;
+  }
+
+  .play{
+    height: 45px;
+    width: 150px;
+
+  }
+
+  .store{
+    height: 45px;
+    width: 150px;
+    margin-left: 10px;
+  }
+
+  .box2{
+    margin-left: 150px;
+    margin-right: 150px;
+  }
+
+  .box3{
+    margin-left: 550px;
+    margin-top: 120px;
+  }
+
+  .box4{
+    margin-left: 40px;
+  }
